@@ -1,1 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="670.0" prefWidth="825.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <AnchorPane layoutX="300.0" layoutY="180.0" prefHeight="183.0" prefWidth="525.0" />
+    <SplitPane dividerPositions="0.4991482112436116" focusTraversable="true" layoutX="14.0" layoutY="12.0" orientation="VERTICAL" prefHeight="589.0" prefWidth="766.0">
+      <items>
+        <AnchorPane disable="false" focusTraversable="false" minHeight="0.0" minWidth="0.0" mouseTransparent="false" opacity="1.0" prefHeight="294.0" prefWidth="556.0" visible="true">
+          <children>
+            <ImageView id="plateau - Copie.jpg" fitHeight="290.0" fitWidth="552.5335693359375" layoutX="6.0" layoutY="5.0">
+              <image>
+                <Image url="@../Sources/plateau%20-%20Copie.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <Rectangle id="C1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="39.0" layoutY="23.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="99.0" layoutY="20.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="165.0" layoutY="23.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="225.0" layoutY="23.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="289.0" layoutY="23.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="350.0" layoutY="23.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="415.0" layoutY="23.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="475.0" layoutY="23.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C9" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="39.0" layoutY="67.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C10" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="99.0" layoutY="67.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C11" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="165.0" layoutY="67.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C12" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="225.0" layoutY="67.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C13" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="289.0" layoutY="67.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C14" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="350.0" layoutY="67.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C15" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="415.0" layoutY="67.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C16" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="475.0" layoutY="67.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C17" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="39.0" layoutY="113.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C18" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="99.0" layoutY="113.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C19" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="165.0" layoutY="113.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C20" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="225.0" layoutY="113.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C21" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="289.0" layoutY="113.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C22" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="350.0" layoutY="113.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C23" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="415.0" layoutY="113.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C24" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="475.0" layoutY="113.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C25" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="39.0" layoutY="156.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C26" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="99.0" layoutY="156.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C27" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="165.0" layoutY="156.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62628173828125" />
+            <Rectangle id="C28" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="225.0" layoutY="156.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C29" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="289.0" layoutY="156.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C30" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="350.0" layoutY="156.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C31" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="415.0" layoutY="156.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C32" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="475.0" layoutY="156.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C33" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="39.0" layoutY="203.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C34" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="99.0" layoutY="203.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C35" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="165.0" layoutY="203.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C36" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="225.0" layoutY="203.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C37" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="289.0" layoutY="203.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C38" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="350.0" layoutY="203.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C39" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="415.0" layoutY="203.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C40" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="475.0" layoutY="203.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C41" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="39.0" layoutY="245.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C42" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="99.0" layoutY="245.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C43" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="165.0" layoutY="245.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C44" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="225.0" layoutY="245.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C45" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="289.0" layoutY="245.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C46" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="350.0" layoutY="245.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C47" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="415.0" layoutY="245.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="C48" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="475.0" layoutY="245.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="F1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="29.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="155.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="281.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="407.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="29.0" layoutY="102.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="157.0" layoutY="102.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="281.0" layoutY="102.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="407.0" layoutY="102.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="31.0" layoutY="192.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="157.0" layoutY="192.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="283.0" layoutY="192.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="412.0" layoutY="192.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="36.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F14" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="162.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F15" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="289.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F16" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="6.000099182128906" layoutX="407.0" layoutY="282.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="125.68182373046875" />
+            <Rectangle id="F17" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="28.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F22" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="28.0" layoutY="102.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F27" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="28.0" layoutY="194.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F18" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="153.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F23" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="153.0" layoutY="103.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F28" arcHeight="5.0" arcWidth="5.0" height="94.0000991821289" layoutX="153.0" layoutY="191.0" opacity="0.0" stroke="WHITE" strokeType="INSIDE" width="7.0">
+              <fill>
+                <Color blue="0.624" green="0.624" red="0.624" fx:id="x5" />
+              </fill>
+            </Rectangle>
+            <Rectangle id="F19" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="279.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F24" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="279.0" layoutY="103.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F29" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="279.0" layoutY="191.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F20" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="404.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F25" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="405.0" layoutY="103.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F30" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="405.0" layoutY="192.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F21" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="529.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F26" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="529.0" layoutY="103.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Rectangle id="F31" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="94.0000991821289" layoutX="529.0" layoutY="192.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="7.0" />
+            <Text fontSmoothingType="GRAY" layoutX="656.0" layoutY="27.0" scaleX="4.642214538698434" scaleY="3.6450968454257757" strokeType="OUTSIDE" strokeWidth="0.0" text="Banque:" underline="true">
+              <font>
+                <Font name="Agency FB" size="6.0" fx:id="x3" />
+              </font>
+            </Text>
+            <ImageView id="pionSource.png" fitHeight="26.96417236328125" fitWidth="20.0" layoutX="273.0" layoutY="182.0">
+              <image>
+                <Image url="@../Sources/pionSource.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="Canalbleu.png" layoutX="581.0" layoutY="208.0">
+              <image>
+                <Image url="@../Sources/Canalbleu.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="Canalbleu.png" layoutX="615.0" layoutY="209.0">
+              <image>
+                <Image url="@../Sources/Canalbleu.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="Canalbleu.png" layoutX="649.0" layoutY="209.0">
+              <image>
+                <Image url="@../Sources/Canalbleu.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="Canalbleu.png" layoutX="683.0" layoutY="208.0">
+              <image>
+                <Image url="@../Sources/Canalbleu.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="Canalbleu.png" layoutX="715.0" layoutY="209.0">
+              <image>
+                <Image url="@../Sources/Canalbleu.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="Canalbleu.png" layoutX="577.0" layoutY="250.0">
+              <image>
+                <Image url="@../Sources/Canalbleu.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="Canalbleu.png" layoutX="615.0" layoutY="250.0">
+              <image>
+                <Image url="@../Sources/Canalbleu.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="Canalbleu.png" layoutX="648.0" layoutY="250.0">
+              <image>
+                <Image url="@../Sources/Canalbleu.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="Canalbleu.png" layoutX="683.0" layoutY="250.0">
+              <image>
+                <Image url="@../Sources/Canalbleu.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="Canalbleu.png" layoutX="715.0" layoutY="251.0">
+              <image>
+                <Image url="@../Sources/Canalbleu.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="580.0" layoutY="55.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="582.0" layoutY="58.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="584.0" layoutY="58.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="584.0" layoutY="61.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="584.0" layoutY="62.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="586.0" layoutY="62.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="584.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="584.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="584.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="584.0" layoutY="61.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="586.0" layoutY="62.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="584.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="584.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="586.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="584.0" layoutY="62.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="586.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="586.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="586.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="586.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="584.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="61.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="62.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="61.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="67.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="691.0" layoutY="64.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="5.jpg" layoutX="582.0" layoutY="128.0">
+              <image>
+                <Image url="@../Sources/5.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="20.jpg" layoutX="691.0" layoutY="131.0">
+              <image>
+                <Image url="@../Sources/20.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="50.jpg" layoutX="636.0" layoutY="158.0">
+              <image>
+                <Image url="@../Sources/50.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+          </children>
+        </AnchorPane>
+        <AnchorPane blendMode="SRC_OVER" minHeight="0.0" minWidth="0.0" prefHeight="224.0" prefWidth="556.0">
+          <children>
+            <Text id="TJ1" fontSmoothingType="LCD" layoutX="334.0" layoutY="27.0" scaleX="2.882689873276734" scaleY="2.0597543674696714" smooth="false" strikethrough="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Console de jeu du joueur 1" underline="true">
+              <font>
+                <Font name="Agency FB" size="9.0" />
+              </font>
+            </Text>
+            <Text font="$x3" fontSmoothingType="GRAY" layoutX="295.0" layoutY="255.0" scaleX="4.071425903451914" scaleY="3.4667447518653565" strokeType="OUTSIDE" strokeWidth="0.0" text="Canal bleu" />
+            <Rectangle id="P1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="32.0" layoutY="136.0" opacity="1.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="P2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="165.0" layoutY="136.0" opacity="1.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="P3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="32.0" layoutY="232.0" opacity="1.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="P4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="165.0" layoutY="232.0" opacity="1.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <ImageView id="Canalbleu.png" fitHeight="28.035797119140625" fitWidth="38.626220703125" layoutX="289.0" layoutY="212.0">
+              <image>
+                <Image url="@../Sources/Canalbleu.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="432.0" layoutY="185.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="454.0" layoutY="185.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="476.0" layoutY="186.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="499.0" layoutY="185.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="521.0" layoutY="185.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="543.0" layoutY="185.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="565.0" layoutY="185.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="432.0" layoutY="213.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="454.0" layoutY="213.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="476.0" layoutY="213.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="499.0" layoutY="213.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="521.0" layoutY="213.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="543.0" layoutY="213.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="565.0" layoutY="213.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="432.0" layoutY="240.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="454.0" layoutY="240.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="476.0" layoutY="240.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="498.0" layoutY="240.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="521.0" layoutY="240.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="543.0" layoutY="240.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="565.0" layoutY="240.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="TViolet.png" fitHeight="26.96417236328125" fitWidth="22.0" layoutX="499.0" layoutY="158.0">
+              <image>
+                <Image url="@../Sources/TViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="CViolet.png" fitHeight="26.9642418457006" fitWidth="42.626259667966224" layoutX="289.0" layoutY="145.0">
+              <image>
+                <Image url="@../../../SantiagoAout2017/bin/Sources/CViolet.png" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <Text fill="#660062" font="$x3" fontSmoothingType="GRAY" layoutX="299.0" layoutY="190.0" scaleX="4.071425903451914" scaleY="3.4667447518653565" strokeType="OUTSIDE" strokeWidth="0.0" text="Canal violet" />
+            <Rectangle id="PR1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="32.0" layoutY="101.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="PR2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="165.0" layoutY="101.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="PR3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="32.0" layoutY="197.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Rectangle id="PR4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="35.000099182128906" layoutX="165.0" layoutY="197.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="51.62615966796875" />
+            <Text font="$x3" fontSmoothingType="GRAY" layoutX="677.0" layoutY="67.0" scaleX="4.642214538698434" scaleY="3.6450968454257757" strokeType="OUTSIDE" strokeWidth="0.0" text="Argent:" underline="true" />
+            <Text font="$x3" fontSmoothingType="GRAY" layoutX="500.0" layoutY="67.0" scaleX="4.642214538698434" scaleY="3.6450968454257757" strokeType="OUTSIDE" strokeWidth="0.0" text="Marqueurs:" underline="true" />
+            <Text font="$x3" fontSmoothingType="GRAY" layoutX="303.0" layoutY="67.0" scaleX="4.642214538698434" scaleY="3.6450968454257757" strokeType="OUTSIDE" strokeWidth="0.0" text="Canaux:" underline="true" />
+            <Text font="$x3" fontSmoothingType="GRAY" layoutX="124.0" layoutY="67.0" scaleX="4.642214538698434" scaleY="3.6450968454257757" strokeType="OUTSIDE" strokeWidth="0.0" text="Plantations:" underline="true" />
+            <ImageView id="1.jpg" layoutX="672.0" layoutY="154.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="673.0" layoutY="158.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="673.0" layoutY="157.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="672.0" layoutY="232.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="672.0" layoutY="233.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="2.jpg" layoutX="672.0" layoutY="236.0">
+              <image>
+                <Image url="@../Sources/2.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+            <ImageView id="1.jpg" layoutX="672.0" layoutY="157.0">
+              <image>
+                <Image url="@../Sources/1.jpg" preserveRatio="true" smooth="true" />
+              </image>
+            </ImageView>
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+  </children>
+</AnchorPane>
