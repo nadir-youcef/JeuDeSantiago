@@ -9,8 +9,9 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
+
 <AnchorPane prefHeight="670.0" prefWidth="825.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
-  <!-- TODO Add Nodes -->
+
   <children>
     <AnchorPane layoutX="300.0" layoutY="180.0" prefHeight="183.0" prefWidth="525.0" />
     <SplitPane dividerPositions="0.4991482112436116" focusTraversable="true" layoutX="14.0" layoutY="12.0" orientation="VERTICAL" prefHeight="589.0" prefWidth="766.0">
